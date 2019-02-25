@@ -1,0 +1,158 @@
+<!---------------------------------------------
+    // Author: Jessy Perreault
+    // Date: Feb-19-2019
+    // Course: CPNT-262
+    // Project: Workshop-Day-9-Final-Assignment 
+----------------------------------------------->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./Images/ufo.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rancho"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Save Me Vacations</title>
+  </head>
+  <body id="vpBody">
+    <div class="topNav">
+      <div class="logo">
+        <a href="./index.html">
+          <img id="ufo" src="./Images/ufo.png" alt="" />
+          <img src="./Images/Rick & Morty Vacations.png" alt="" srcset="" />
+        </a>
+      </div>
+      <ul>
+        <a href="./vacationpackage.html">
+          <li>Vacation Package</li>
+        </a>
+        <a href="./customerregistration.html">
+          <li>Registration</li>
+        </a>
+        <a href="./contactus.html">
+          <li>Contact Us</li>
+        </a>
+      </ul>
+      <div class="menuButtonBox"><svg class="menuButton" width="30" height="30" viewBox="0 0 240 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line id="bottom" y1="190" x2="240" y2="190" stroke="white" stroke-width="40"/>
+        <line id="middle-left" y1="105" x2="120" y2="105" stroke="white" stroke-width="40"/>
+        <line id="middle-right" x1="120" y1="105" x2="240" y2="105" stroke="white" stroke-width="40"/>
+        <line id="top" y1="20" x2="240" y2="20" stroke="white" stroke-width="40"/>
+        </svg>             
+    </div>
+    </div>
+    <div class="slideMenu">
+            <ul>
+                <a class="closeMenu" id="closeMenu" href="#">
+                    <li>
+                        <svg width="20" height="20" viewBox="0 0 325 326" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="-20" x2="418.607" y2="-20" transform="matrix(0.707107 0.707107 0.707107 -0.707107 29 1.00003)" stroke="white" stroke-width="70"/>
+                        <line x1="14.8579" y1="310.858" x2="310.858" y2="14.8579" stroke="white" stroke-width="70"/>
+                        </svg>
+                    </li>
+                </a>
+                <a class="link1" href="./vacationpackage.html">
+                    <li>Vacation Package</li>
+                </a>
+                <a class="link2" href="./customerregistration.html">
+                    <li>Registration</li>
+                </a>
+                <a class="link3" href="./contactus.html">
+                    <li>Contact Us</li>
+                </a>
+                
+            </ul>
+    </div>
+
+    <main>
+      <div class="animation">
+        <img id="jet" src="./Images/flyufo.png" alt="" />
+      </div>
+      <div class="content">
+        <div class="row1">
+          <a class="imgContainer" href="#">
+            <img id="mainImg2" src="./Images/apocalypse.jpg" alt="" />
+            <h3>The Post Apocalyptic Universe</h3>
+            <p>
+              Have you ever wondered what it would be like to live in a world
+              where everything is dead and blown to shit and you could just do
+              whatever the hell you wanted? Well now we have access to that type
+              of Universe with Ricks super awesome portal-majiggy shooter thing.
+              Book a trip now and go blow shit up!
+              <strong
+                >Warning! There may be mutated beings trying to kill you while
+                you are there, go at your own risk.</strong
+              >
+            </p>
+          </a>
+          <a class="imgContainer" href="#">
+                <img id="mainImg1" src="./Images/PantlessBaseball.png" alt="" />
+                <h3>The Pantless Universe</h3>
+                <p>
+                  Have you ever dreamed of being in a universe where everyone is not
+                  wearing pants? Now you can with the amazing Pantless Universe
+                  where nobody gives a F#@$ if you see their undergoodies or not.
+                </p>
+              </a>
+          <a class="imgContainer" href="#">
+            <img id="mainImg3" src="./Images/dog-dimension.jpg" alt="" />
+            <h3>The Dog Universe</h3>
+            <p>
+              Do you love your dog so much that you ever wondered what it would
+              be like if they were the masters instead of you? Well now you can
+              experience it first hand with the Dog Dimension, where Dogs are
+              the masters and carry you around like little pets in their super
+              awesome giant robot suits with genius capabilities that enable the
+              dogs to talk and control things like humans do.
+              <strong
+                >Just be careful because some dogs may be human abusers like
+                some of the terrible dog abusers on your earth!</strong
+              >
+            </p>
+          </a>
+        </div>
+        <div class="row2"></div>
+        <div class="row3"></div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="wrapper footer-container">
+        <div class="footer-box">
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-square fa-lg"></i></a>
+              <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+              <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li id="date"></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./vp.js"></script>
+  </body>
+</html>
